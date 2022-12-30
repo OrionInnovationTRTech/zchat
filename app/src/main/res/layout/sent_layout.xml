@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_sent_message"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="selam osman naber ya bu bir deneme yazısı"
+                android:padding="6dp"
+                android:textSize="18sp" />
+
+        <ImageView
+
+            android:id="@+id/txt_sent_image"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:layout_width="200dp"
+            android:layout_height="130dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txt_sent_time"
+            android:layout_width="match_parent"
+            android:layout_height="16sp"
+            android:paddingRight="10dp"
+            android:text="10:08"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:gravity="right">
+
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

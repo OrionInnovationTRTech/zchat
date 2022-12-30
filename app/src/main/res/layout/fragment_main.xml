@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".logInFragments.MainFragments">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/iconn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/mainSigninButton"
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/log_in"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkedTextView"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/mainSignupButton"
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkedTextView3"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/yen_nes_l_tani_ma_platformu"
+            android:textColor="#804295"
+            android:textColorHighlight="#550909"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkedTextView2"
+            tools:ignore="MissingConstraints" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView2"
+            android:layout_width="74dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/z_chat"
+            android:textColor="#804295"
+            android:textSize="21sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:ignore="MissingConstraints" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/or"
+            android:textColor="#804295"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainSigninButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

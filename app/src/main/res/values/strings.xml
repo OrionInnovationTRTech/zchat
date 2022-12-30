@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChatApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in">lOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="yen_nes_l_tani_ma_platformu">YENİ NESİL TANIŞMA PLATFORMU</string>
+    <string name="z_chat">Z CHAT</string>
+    <string name="or">OR</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+
+</resources>

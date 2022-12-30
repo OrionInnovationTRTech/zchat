@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/message_box_backgroud"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_receive_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:text="iyidir senden naber deniyoz baba bakalım nasıl olmuş"
+            android:padding="6dp"
+            android:textSize="18sp"/>
+        <ImageView
+
+            android:id="@+id/txt_receive_image"
+            android:visibility="gone"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:layout_width="200dp"
+            android:layout_height="130dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/txt_receive_time"
+            android:layout_width="match_parent"
+            android:layout_height="16sp"
+            android:paddingRight="12dp"
+            android:text="10:08"
+            android:textColor="@color/black"
+            android:textSize="9sp"
+            android:gravity="right">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

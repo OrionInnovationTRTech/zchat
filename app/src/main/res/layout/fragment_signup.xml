@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".logInFragments.SignupFragment">
+
+        <ImageView
+            android:id="@+id/selectImageView"
+            android:layout_width="156dp"
+            android:layout_height="137dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/edt_backround"
+            android:padding="10dp"
+            android:src="@drawable/select"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/statusText"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/edt_backround"
+            android:ems="10"
+            android:hint="Status"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignupPassText" />
+
+        <EditText
+            android:id="@+id/SignupNameText"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints=""
+            android:background="@drawable/edt_backround"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectImageView" />
+
+        <EditText
+            android:id="@+id/SignupMailText"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/edt_backround"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignupNameText" />
+
+        <EditText
+            android:id="@+id/SignupPassText"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/edt_backround"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingLeft="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignupMailText" />
+
+        <Button
+            android:id="@+id/SignupButton"
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_background"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statusText"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
